@@ -1,8 +1,42 @@
+*{
+    background-color: cornsilk;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
 .Header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
+    background-color: cornsilk;
 }
 
-.Link{
+a {
+    display: inline;
+    color:black;
     font-size:40px;
+    text-decoration: none;
+}
+img{
+    height:310px;
+    width:auto;
+    display:block;
+    padding: 5px;
+    margin:auto;
+}
+.Lasagna,
+.ButterChicken{
+    display:inline-block;
     text-align: center;
+    margin:20px;
+}
+.Lasagna:hover{
+    text-decoration: underline;
+}
+.ButterChicken:hover{
+    text-decoration: underline;
 }
